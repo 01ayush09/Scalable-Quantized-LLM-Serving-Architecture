@@ -28,6 +28,9 @@ Reduce model size and memory requirements by quantizing weights to 4-bit (W4A16)
 Activation-Aware Quantization (W8A8)
 Experiment with 8-bit activation + weight quantization to trade accuracy vs. compression.
 
+Performance Metrics
+Measure and compare memory, latency, and accuracy across quantized and original models.
+
 # Serving & Performance Techniques
 
 > Efficient Batching for high GPU utilization
@@ -53,5 +56,4 @@ Experiment with 8-bit activation + weight quantization to trade accuracy vs. com
   | `eval_data.json`           | Example evaluation dataset for prompting and comparison.                    |
 
 
-Performance Metrics
-Measure and compare memory, latency, and accuracy across quantized and original models.
+
