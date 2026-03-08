@@ -38,5 +38,14 @@ Experiment with 8-bit activation + weight quantization to trade accuracy vs. com
 
 > Automatic Device Mapping for CPU/GPU load balancing
 
+# | Path                       | Description                                                                 |
+  | -------------------------- | --------------------------------------------------------------------------- |
+  | `step_by_step_guide.ipynb` | Guided walkthrough of model loading, quantization, evaluation, and metrics. |
+  | `llm_as_eval.py`           | Evaluates LLM responses using a scoring or judging mechanism.               |
+  | `plt.ipynb`                | Notebook for plotting and visualizing memory/latency results.               |
+  | `requirements.txt`         | Dependencies for running notebooks and scripts.                             |
+  | `eval_data.json`           | Example evaluation dataset for prompting and comparison.                    |
+
+
 Performance Metrics
 Measure and compare memory, latency, and accuracy across quantized and original models.
