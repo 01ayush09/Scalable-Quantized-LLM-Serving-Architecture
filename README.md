@@ -8,9 +8,13 @@ This repository implements a scalable and quantization-aware LLM serving archite
 The goal is to provide a production-ready foundation for:
 
 ✔️ Compressing and quantizing large transformer models
+
 ✔ Evaluating quantized model performance against original models
+
 ✔ Serving inference requests efficiently with batching and caching
+
 ✔ Measuring accuracy, latency, and memory consumption
+
 ✔ Extending to distributed and multi-model serving workflows
 
 This architecture is suitable for researchers, engineers, and teams working on large-scale generative systems, self-hosted API backends, and AI infrastructure.
