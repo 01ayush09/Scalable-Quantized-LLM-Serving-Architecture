@@ -18,3 +18,15 @@ The goal is to provide a production-ready foundation for:
 ✔ Extending to distributed and multi-model serving workflows
 
 This architecture is suitable for researchers, engineers, and teams working on large-scale generative systems, self-hosted API backends, and AI infrastructure.
+
+# Key Features
+Model Optimization & Quantization
+
+Weight-Only Quantization
+Reduce model size and memory requirements by quantizing weights to 4-bit (W4A16) precision while maintaining activation quality.
+
+Activation-Aware Quantization (W8A8)
+Experiment with 8-bit activation + weight quantization to trade accuracy vs. compression.
+
+Performance Metrics
+Measure and compare memory, latency, and accuracy across quantized and original models.
