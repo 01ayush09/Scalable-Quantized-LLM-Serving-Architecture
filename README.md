@@ -56,4 +56,17 @@ Measure and compare memory, latency, and accuracy across quantized and original 
   | `eval_data.json`           | Example evaluation dataset for prompting and comparison.                    |
 
 
+# 🛠️ Setup & Installation
 
+1. Clone the repository
+
+       git clone https://github.com/01ayush09/Scalable-Quantized-LLM-Serving-Architecture.git
+       cd Scalable-Quantized-LLM-Serving-Architecture
+
+2. Install dependencies
+
+       pip install -r requirements.txt
+
+3. Optional: Install CUDA/PyTorch with GPU support
+   For optimal performance, install PyTorch with CUDA for your system:
+   https://pytorch.org/get-started/
