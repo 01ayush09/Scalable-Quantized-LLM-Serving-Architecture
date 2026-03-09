@@ -105,3 +105,19 @@ Use custom scripts or notebooks to compare:
 > Latency (s)
 
 > Output fidelity vs ground truth
+
+# Why Quantization Matters
+
+Quantization techniques reduce resource requirements by lowering numeric precision, which:
+
+    Shrinks model size
+
+    Improves throughput on limited hardware
+
+    Reduces GPU memory footprint
+
+    Enables larger batch serving
+
+    Makes self-hosted LLMs feasible economically
+
+For more on quantization strategies such as AWQ, SmoothQuant, and GPTQ, see related research literature.(https://github.com/nyunAI/lmquant?utm_source=chatgpt.com)
