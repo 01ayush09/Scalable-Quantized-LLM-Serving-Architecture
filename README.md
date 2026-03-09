@@ -127,5 +127,7 @@ For more on quantization strategies such as AWQ, SmoothQuant, and GPTQ, see rela
 Contributions are welcome! You can:
 
 ⭐ Star the repo
+
 🐛 Report issues
+
 🔀 Submit pull requests with enhancements
