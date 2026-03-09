@@ -70,3 +70,38 @@ Measure and compare memory, latency, and accuracy across quantized and original 
 3. Optional: Install CUDA/PyTorch with GPU support
    For optimal performance, install PyTorch with CUDA for your system:
    https://pytorch.org/get-started/
+
+# Usage Guide
+🔹 Load & Evaluate Base Model
+
+Example code snippet to load a model and generate text:
+
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+
+    model_id = "meta-llama/Llama-3.2-1B"
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto")
+🔹 Quantize Weights (W4A16)
+
+    from transformers import BitsAndBytesConfig
+
+    quant_config = BitsAndBytesConfig(
+       load_in_4bit=True,
+       bnb_4bit_use_double_quant=True,
+       bnb_4bit_quant_type="nf4"
+    )
+
+    quant_model = AutoModelForCausalLM.from_pretrained(
+       model_id,
+       quantization_config=quant_config,
+       device_map="auto"
+    )
+🔹 Evaluate Model Performance
+
+Use custom scripts or notebooks to compare:
+
+> Memory usage (MB)
+
+> Latency (s)
+
+> Output fidelity vs ground truth
