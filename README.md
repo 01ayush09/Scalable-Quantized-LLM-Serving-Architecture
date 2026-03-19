@@ -120,7 +120,7 @@ Quantization techniques reduce resource requirements by lowering numeric precisi
 
     Makes self-hosted LLMs feasible economically
 
-For more on quantization strategies such as AWQ, SmoothQuant, and GPTQ, see related research literature.(https://github.com/nyunAI/lmquant?utm_source=chatgpt.com)
+For more on quantization strategies such as AWQ, SmoothQuant, and GPTQ, see related research literature.
 
 # 🙌 Contributing
 
