@@ -1,4 +1,4 @@
-# Scalable-Quantized-LLM-Serving-Architecture
+# QuantServe-Scalable-LLM-Serving-Pipeline
 A flexible, performance-focused architecture for deploying quantized large language models (LLMs) that balances memory, latency, and throughput with production-grade serving practices.
 
 # Overview
@@ -45,7 +45,7 @@ Measure and compare memory, latency, and accuracy across quantized and original 
   
   | -------------------------- | --------------------------------------------------------------------------- |
   
-  | `step_by_step_guide.ipynb` | Guided walkthrough of model loading, quantization, evaluation, and metrics. |
+  | `code.ipynb`               | Guided walkthrough of model loading, quantization, evaluation, and metrics. |
   
   | `llm_as_eval.py`           | Evaluates LLM responses using a scoring or judging mechanism.               |
   
@@ -122,7 +122,7 @@ Quantization techniques reduce resource requirements by lowering numeric precisi
 
 For more on quantization strategies such as AWQ, SmoothQuant, and GPTQ, see related research literature.
 
-# 🙌 Contributing
+#  Contributing
 
 Contributions are welcome! You can:
 
